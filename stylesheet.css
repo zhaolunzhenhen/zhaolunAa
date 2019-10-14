@@ -1,0 +1,182 @@
+.header {
+	
+	color: #ffffff;
+	text-align: center;
+	font-size:50px;
+	font-family:sans-serif;
+	padding: 203px;
+	background-image:url("https://storage.googleapis.com/blogposts/post_thumbnail_cosmos.jpg");
+}
+
+
+  
+
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 26px;
+	text-decoration: none;
+	font-size:22px;
+	font-family:courier;
+  transition:color .3s;
+}
+
+.topnav a:hover {
+	color: #15afbd;
+}
+
+.topright a {
+	float: right;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 26px;
+	text-decoration: none;
+	font-size:22px;
+	font-family:courier;
+}
+
+.topright a:hover {
+	color: #15afbd;
+}
+
+div.polaroid {
+	width: 31.5%;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-bottom: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.polaroid img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	text-align: center;
+	padding: 10px 20px;
+}
+
+.pagination {
+  display: block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  transition: border-color .3s;
+  font-size: 22px;
+  border:2px solid black;
+  border-radius:12px;
+}
+
+.pagination .active {
+  background-color: #00ffdd;
+  color: white;
+  border: 1px solid #00ffdd;
+  margin:-4px 0px;
+}
+
+.pagination .passive {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ffffff;
+  margin:-4px 0px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ffffff;
+ 	border: 2px solid blue;
+  border-radius: 12px;
+  border-right:2px solid black;
+  border-left:2px solid red;
+ 
+}
+
+.paginationr a {
+  color: black;
+  float: right;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  transition: border-color .3s;
+  font-size: 22px;
+  border:2px solid white;
+  border-radius:12px;
+}
+
+
+
+.paginationr a:hover:not(.active) {
+  background-color: #ffffff;
+ 	border: 2px solid blue;
+  border-radius: 12px;
+  border-right:2px solid black;
+  border-left:2px solid red;
+ 
+}
+
+.paginationr .passive {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ffffff;
+  margin:0px 2px;
+  margin:-4px 0px;
+}
+
+.br{
+  color:#ffb700;
+  background-color:000000;
+  text-align: center;
+  font-style:oblique;
+  font-weight:bold;
+  font-size:24px;
+  margin: 0px;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.column {
+  float: left;
+  width: 48.53%;
+  padding: 10px;
+  height:300px;
+  color: #c6c2ff;
+}
+
+.pagenation a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  transition: border-color .3s;
+  font-size: 22px;
+  border:2px solid black;
+  border-radius:12px;
+}
+
+.pagenation .passive {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ffffff;
+  margin:-4px 0px;
+}
+
+.pagenation a:hover:not(.active) {
+  background-color: #00ffdd;
+ 	color: white;
+  border: 1px solid #00ffdd;
+}
